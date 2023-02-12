@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+:root{
+    --main-color:rgb(254, 176, 20);
+    --text-color:rgb(46, 40, 40);
+    --bg-color:#fff;
+    --btn-color: rgb(91, 12, 12);
+}
+
+/*Nav*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    height: 150px;
+}
+
+.logo-brand{
+    display: inline-flex;
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    width: 120px;
+}
+
+.brand{
+    padding-left: 30px;
+}
+
+
+.name-brand{
+    font-size: 25px;
+    color: var(--bg-color);
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+}
+
+a{
+    color: var(--bg-color);
+    padding-right: 50px;
+}
+
+a:hover,a:focus{
+    color: var(--main-color);
+    text-decoration:none;
+}
+
+.line,.facebook,.ig,.twitter{
+    width: 30px;
+}
+
+#cart-icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--bg-color);
+}
+
+/*Cart*/
+.cart{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    right: -100%;
+    width: 360px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: var(--bg-color);
+    box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
+    border: 1px solid var(--text-color);
+    transition: 1.5s;
+}
+
+.cart.active{
+    right: 0;
+    transition: .5s;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.detail-box{
+    display: grid;
+    row-gap: .5rem;
+}
+
+.cart-product-title{
+    font-size: 1rem;  
+}
+
+.cart-price{
+    font-weight: 500;
+}
+
+.cart-quantity{
+    border: 1px solid var(--text-color);
+    outline-color: var(--main-color);
+    width: 3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cart-remove{
+    font-size: 20px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--text-color);
+}
+
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.total-price{
+    margin-left: .5rem;
+}
+
+.btn-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: var(--main-color);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-buy:hover{
+    background-color: var(--btn-color);
+    color: var(--bg-color);
+}
+
+#cart-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+/*/Cart*/
+
+
+/*/Nav*/
+
+/*Header*/
+    body{
+        background-image: url('https://cdn.wallpapersafari.com/26/9/fCkEmv.jpg');
+        background-size: 100%
+    }
+
+header{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+}
+/*/Header*/
+
+/*Main*/
+
+section{
+    padding: 4rem 0 3rem;
+}
+
+    .card-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+        gap: 3rem;
+        padding-top: 130px;
+        justify-content: center;
+    }
+
+    .card{
+        border-radius: 15px;
+        width: 272px;
+        height: 400px;
+    }
+    
+    .card-img{
+        width: 270px;
+        height: 200px;
+    }
+
+    .menu-img{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .card-text{
+        background-color: var(--bg-color);
+        width: 270px;
+    }
+
+    .name-menu{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size:20px;
+        padding-top: 15px;
+        padding-left: 15px;  
+        margin-bottom: 0;
+        text-decoration: none;
+    }
+
+    .price-menu{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size:20px;
+        padding-left: 15px;  
+        padding-top: 7px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        text-decoration: none;
+    }
+
+    .card-icon-animal{
+        display: inline-flex;
+        padding-left: 50px;  
+        padding-top: 0px;
+    }
+
+    .beef-img{
+        width: 60px; 
+    }
+
+    .pig-img{
+        width: 60px;
+        margin-left: 50px;
+    }
+
+    .fish-img{
+        width: 45px;
+        margin-left: 60px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .btn{
+        font-family: 'Inter', sans-serif;
+        color:var(--bg-color);
+        width: 88%;
+        margin-left: 15px;
+        margin-top:8px;
+        background-color: var(--btn-color);
+        border: none;
+    }
+
+    .btn:hover{
+        color:var(--text-color);
+        background-color: var(--main-color);
+        text-decoration:none;
+    }
+
+    .menu-box-group{
+        position:absolute;
+        margin-left: 180px;
+        margin-bottom: 40px;
+        margin-top: 100px;
+        padding-top:30px;
+    }
+
+    .menu-box{
+        display:inline-flex;
+        background-color: var(--main-color);
+        width: 150px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 30%;
+    }
+
+    .hamburger-type-text{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 30px;
+        margin-top: 15px;
+        color: rgb(46, 40, 40);
+    }
+
+    .snack-type-text{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 50px;
+        margin-top: 15px;
+        color: rgb(46, 40, 40);
+    }
+
+    .drink-type-text{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 55px;
+        margin-top: 15px;
+        color: rgb(46, 40, 40);
+    }
+
+    .btn-snack{
+        width: 88%;
+        height: 10%;
+        margin-left: 15px;
+        margin-top:63px;
+        background-color: rgb(91, 12, 12);
+        border-radius: 5px;
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-snack-text{
+        padding-top: 3px;
+        font-size: medium;
+        color:var(--bg-color);
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .btn-snack:hover{
+        background-color: var(--main-color);
+        text-decoration:none;
+    }
+
+    .btn-snack-text:hover{
+        color:var(--text-color);
+    }

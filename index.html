@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Chill Chill Burger</title>
+
+</head>
+<body>
+
+<!--Nav-->
+    <div class ="navbar fixed-top">
+
+        <div class="brand">
+            <a href="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADUUlEQVRoge2XX2hTZxjGf1/anrTd0qbaptBWHcFWbDf/rF4VByITUUEQNm8mYyBUvBGK6JUgguxuCruRCqKIXileeGEvNsbAuoG2YNW22q4tLFGobGlMmtDm1PN6YabYne80TZM0lvODD/J973lPnifn5DnfARcXFxeXJaCW0jx6Z4/XP+X5XHi9BY/agrABWAX4gar0AIilRxSIAE8RGVCUPIzWWE+a9/bMFszAxOUd5RUlxi4l8i1wAPg02y9PM6OQX0W4oSrnbgUO/j69mOaMDUS6v66e9cx1oaQLVNXCHdkgMUSdNyoqzq0+1BPLpCMjA+ELHT8o1E+8vT0KQUSQ401H/7iy0IGOBkZ/Xu+tZNUlge/s6r61LSAQD41kK3QhcdeTRA43H/tL+x/RGujrbi8LxK2bwH7dMVXBVkCIjQ8vTakzt1/6PN9sO9Jv2hVLdV21kdmT1jzx/g2bQIToyGMAos8GcqpUw/7aKU4AP9oVtQYs0+yavyaWBQiWaftj5JMuFmtATHP1/LXIwP0caloUtbqC0xXIj5QcozeQMnuB7QXU4sRdXcExRtt7z0jutSye/u2ntTo9hRSSD2ydPe4o2QfSPdHY0Pjnl1/wNPgZ/9ZUk/KW4YsnWPN8kk3DI2weHuPhxvU82thCuLGeuK8SYyZFTTRGy/jfbOsfRIC+9jZGg+uI1FST8pbiiyVpePGStqFRWofGGWwNMtjazIuGANNVlRgzJv6pGMHxEFv7hmgIT4bFsjp39yV7MjLwpMMTEmiSdFkAEfhgnm6Xd3MFoqt9OCd9rve19/N3n+V/tdDu+9Nr52vV3UJNmvXlZI3dos5AOI9CsiVkt2hrQCnVSXGZCIlIp13BMUZTgxRFjBptep0rO0YF1QiZp1BpBZQFhLJaobwOjDrBqBO86eGEGVeMXTP450GJXQotf4yWfgJGQPDWC+UBobw+PQLCqyEPY9cMUvH/zp95jGr3QrlmLqEwJxTTE2ifA9mwslPIf2pnUaRQ9OxvKzeFPnoD2kszeXXXPaCjgFqc6K3//pev7AraFJpLJItFPDi8GWoNvE4k8yMlx+ivQDIZpni21bY7UXB6qU8kOgV1keU2IYSUx/4Z4OLi4uLi8tHzBo26YLOfamSQAAAAAElFTkSuQmCC"class="logo-brand"></a>
+            <p class="name-brand">chill chill burger</p>
+        </div>
+
+            <!--Contact-->
+            <div class="contact-container">
+                <a href="https://line.me/th/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAEjElEQVRoge2ZW2hdRRSG/ym2VuPdSKQ3EtFWmmokrVatrYjom/bBRhShF0UoeAHBl4IUUVAoaFuUWhSf8qBStEhFFC+0pEVtYq0piFETY219qJYm0eghafP5MHvTdSZ773M/UcgPm6y916x//ZO9ZvbMHGka05jG/xquUgLgGkkrJd0oaZGkZkmXSLo4ajIsaUjSoKQ+Sd2SupxzP1aau2wAVwHPAX2Uj76Io6WewtuAd4GJCoSHOBNxtpWjqagSAi6T9IKkRyXNCNw5SV9J2ivpC0k/S/pdvnQkX0pXyJfWLZLukLRc0uyAZ0LSG5I2OedOldqRLPG3AUcT/nNdQAcQCimGczawJuIIcRRYWS3x64GxIMFHwNKqJPA5lkWcFmPA+kqJHye/1oeAh4GKZ66EXC7iHjL5JoDHyiXsiAZXjMPA/CrrTso7H/guGOAdpZIsBEYMyZfARTXSnJS/Ceg1+UeAhcUGO2CfCf4JPwPVFUBjlDvGvqJKFz8zxBgH2uugN01Le6QhxppigrpNwNY66Cyk52Wjp7tQ4zbT+B+gKfDfCRwCbkqIXQscBFqAWcDHwJagTUvUZm10vw3oD643g5imSEuM9K81sNk0fCvB/1LkeybBtzvyPQS0Gp4Nps2D0bP3o/s/mIz+BO63jX9z6LfLgpuN/UFqT7OXHy7wvwIsTomL7++RtCy6bkjg3JOiUZJ0jrFbjd2TIbIUNEh6J6nsDI44537J8FstraHTvgE7XR4vTl8mfpNf+y+RtD2j3aApkf0J/mPGvjx02jdwrrEnSlGagnFJD0g6JL+KbcpuLkki4dmYsWeFTvsGRow9t4hkBeGcG5AXL0n3pjRrdmeRtAq91NhDodN2YNDYCzJ0zQGWRlfB3ZRzbpeknRlNrjN8Fyb4Fxn7WOi0HThs7LszEm6UH1g9kvrJX7ujs2Vgy+EpSb3B8/jvHsNnNcRYYeyvQ6ftwCfGvp/Ja48PJX0vacBc38gP+PckHZR0IHr+qaTOONA5l5PUIb9zi78xnQHXgPyuLoRdjX6e4PcAGoBhMyOsTm1cJ+B3gzFGgQsKBWyzX0XK2C5WC/iV8V6jZ0cxQVcCf5qgLQWDagTgEaMjV8yEEQc+GaxPNtZYa5KGJcBfRsPzpQTPAHaZ4NPAuhrqDfM3k38K0ltyKeOPPQ4Eb2I7MLNGuuO8c6OxF2MYuLZcskagJ+hED3B7lXXH+a4m/6hyFFhVKel5QCeTsRs/xVXliAW4Czhp+HNA1se05ARPkP+NiNEPPAusotAcnczrgKfJ3/v+DaStmyrqRBPwOn5QJ+E0cAR4FVheBN8C4LOA41eqeOqXlngxsBU4kdIR8Kdqm1LiHbCB/FM4gP0E+/Bad2QmsBrYgd/sjweCckBDENMeCQ3f3IvApLV+XQGcjx8LdrPeGvkagZ3kH1cC/ADcOqXCQwCnjMB5+EPik4HwcXwZNhRmrCOAOUbkGeBbJqMLuH6qtSYCWJEgOMZxYB01OJ6vGvBTbS4QPor/Me+/VS5pAO7Df+BOAK8B86Za0zSmkYF/AfltpczxocscAAAAAElFTkSuQmCC" class="line"></a>
+                <a href="https://www.facebook.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABPklEQVRoge2ZOU7EQBBFX5GQsARkk5CQwC3mEIibwBXmEhyElEVC4gQkCAkkMggmYNGITzKaEHe53Z4S1Iuc1PLU3dW2DEksbIwikvaBE2AKHAJ7wBbwBiyAOfAOfCyfL8xsNkZvRUjalXQu6Us+FuvufYWkA0n3ToEV3npNtpakbeAWOOqbw8xcvW30LdTBjAqJPgy+IpImwAOwWZMnwoocUynRhxYi0wY5O2khMsTZuBogRx2SXgum66ek0+V5iomk7wKRs6HrtphaJZfZxMxehqy7FhHvaC2h1YU4OikSjf8rIumm9vW7YDxfevtyT4/SZiuZm9mOJyDq1nryBqRIY569ASnSmD8jMsoZue4R4+ERuPMG5dtvNFIkGikSjRSJRopEI0WikSLRSJFopEg0UuQXur7p1/+jMxmBH6oJQuwYnlr5AAAAAElFTkSuQmCC" class="facebook"></a>  
+                <a href="https://www.instagram.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADx0lEQVRoge2au08UURTGD8YHBhDXErREMBY+wE4xJppITAAbW0Ji+A9QqX20BEIpobdQoxWs7w6tVUALZYlWugYEKvlZzLnZEZmde+/cWRq+ZDKb2XO+8525Z+5rRmQHO8gFdS7GQLuI9IvIJRFpFZEjItIQSMuqiJREZElEiiLyuK6ubiEQdwSgC3hO7fEM6AyRwB5gAthQ4h/AfaAXaAdCtYYADcrZB0xqLDT2OLDbl7gAvFCyVeA2cCCUcIv4B4A7wFqsdQ66kuyhUkpLQFdOem20nAC+qJbXwF4X5wl1XARactRpq6cFKKmmMVunLq3LVeBUzhqtAZzWMvsDnLZxMCV1uwb6nADcVW3FNMP2WO9Uswc7Fv+KPpMloGeL/5uBn6qxrRrRTTWazFVxcnzzHAAsJthM6f/D8eu7Ntld1POTPIQGgtF2KdECmNdsj/pG0fFnEHgMzAG/9ZgDHul/hQTfHm2VReBygo0p/7lqIpbVqMkjgf3ACPCLdJSBW0C9R5wm5ViuZgSAB3kL8C4mdBq4rnevQY8OvTYTs3uLxziVqtMnEU1i0TQ3cNbC5xyVMnYedIMnouVkWuIlDnMhomfplfrOupRZHomMqMtHlyRi/oVYy9x08AuXiIowD3ZqOVXhOa8cZRJ6M2edjokMqvm0peZqXEXlGrC0/0/n5gHRBb16fpCBw8Bw9Fa1soVji5jabg8Qt0O5kge5f+2DltaKmjda6q3G1ahcK5b2QUsrJIyOjawEPvim59YMHAZmQPzuS5AlkQ96PpeBw6Bbz+99CbIkYqbT1zJwGBiOMMsHjwGxrC7d6R6JPBdiA6LV7CBor6X2Zooybzsqb/IvAAvKMZzuYanTI5F6oqk4RBNA62SAQ8Ab9d3eSaP6xKfxC8B5C58LwCf12f5pfMyvRe+qQREYAo4RDXaN+nuIaOvTYNY1CdtEsix164l2YcqkowzcAPZ5xLFa6obYfDgIDAAPidYpK3p81GsDeKxdYvxWmw9mOt3nGyhvAFdV4z/Lh80DotmKDDOdzgfmJs8kWrDNW6ZpwHbLVI1Nr3KnRvqsAdzbqqySjDuJXiusYbN9XyMQve5YJ3qtcNLWaVwzLwEhpumZALRS2eAedXHcHSuxJeBMjjrTtJwEvqqWIq4vRXU8MMmsEb1kac5J71bxm/WZWFcNM97jj7bMmNYl2mNMAf1EGwaZ1+uxWI3KeVVjmN7pDzDq3BIJQY4DT6k9ilh2OK6fcLRJ5ROOIyJyWERCtcpviT7hKEnlE47Pgbh3sANf/AXz7u+5M19CfgAAAABJRU5ErkJggg==" class="ig"></a>
+                <a href="https://twitter.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFA0lEQVRoge2ZWWxVVRSG/9OWalumlCEoVAkoIlZsjIJBrMFq0ECC8xBfMBojPkg04pA4xERMHGKAOBFSCSHaiBijiVGIiaBBDVZNEGlLaRCtJgyhFVro6OfDXte7e7m3dzinvQ/2f7n3nL3Wv/61zzl7WFsawQhG8L9AkM/gwCxJ8yVNkVQm6S9JjZJ2BUHQn09taQGMAh4G9pEaR4BXgPIUHAXAXcDnwNJkBjXAe8C5Q5REFdDkCT4K1Jno54H1QL3X3gbc7flPAh5M4FibGKQYOGiNe4DxESexBOgw/r3AMqAwhe0MYCPQb/Z1wHfetY+qROfbEgy+BkZHlMTlQKfxrgdGZeh3PdDuaeoHdgB/2/WWZE6brfEd4Hv7vxuYGDKJs70n/WYO/nOA1bhv4hzgbS+xWuBboM53iL13C4FxXjJNwCUhElllPPVAUQieicD2JK8WQLNveNJuTrbr0cAndq8TuD+H4AHwp3HU5JqEcW1mIHq934W+YZc1lHn3CoCXgH+sbTtwURbB55tfS5gkjKsG2ACsAJ7yElmRaPiHNVycguSQtXcDa4HzMgj+qPm8ETYRj3Ml0Ged+3Qyg88s6O0pCMYB64Aes+uxx30dUJDC51WzfTyiJF73Yi9PZfSIGX2ahuxC4APrlRhagbdwI8sUzzY2wjwUUSKtxnfzYEbluAmrN5PvADgfeBk4zJk4CuwCfrXr1REl8rvxVaQzXG2G9UBxhuSFQLU99p+8V8/HhogSOWZ8ExLbAs+oVtJYScskjZJUJ+m+IAi6swxWImmupBlyq9rJkjYFQdCYewr/cXdLKpZ0VhAEPckMypL0IsBOvOE4nwAmm6bjydpjo80pSb32/5jXXi1p8RDqywYz7TfpnFQkSUEQAOyTdJmkxyTtllQpqVTSoKPYMCK2TGoe1Ap4zR7d1qHXlD1wy3qAlekML8XNlr3ABcOkL2MALZbIFZkYf2jG20kxW+cDQKU3P6VfQQNTzRhgDZDX4kQMwHOmqTYbp2rghDm+T8Rb3myBW4EfMD03ZetcRXwfcRh4Ble6GXYAS03HQVLs8dM5xxLxsW6I9A6mZYfFXjWYXaoP+kpJiSUh5CbOYQOwWNK1ko5Lyn69BswiXnp5AVgAjItaaBoNRcDPpuGJMESxCagZGBOhxkzjP2nxD+EWojkTlRNf/28bzieCKwGdttg3RkE4FzhuhHuBygh0pos5FmiwmO9GSTwH2G/EfcAW4FZgGiHqVCliFRIvQf1CRJVOP0Ap8CLxiTKGLlIUK3KIUQBsMt42hnK9h6ukbPQS6QfuiIC3yOPtAK6JQm+yQIXADcCXXhIHgOoIuMcTL4WeAhZFodkPUIGr0K9h4CzfjitSlEYQYx7QaLyHgQVhyD7CnRC14M5FWq1nEnEAV6oMPQwDJfbNxcqee4DpYUl/SCK6CzdqbMVV02eHFW+xioAHiJdn+3E709wnPI+8xHraP1D5AriFDA9kMogxFXiW+DkJwI/A1VHwJwabiCtOn/aCHcHVd+8FpmXBVQJchVv+f8PA8moDcCcRb9rOIMNtpO6RtFzSvITmdkkNkn6TdMKuJXe0PEbSJEmzJU3XwJV1t6SP5VawXwVBQHQpOAzaK7iTqiWSFskllfS4OAl6JO2XtFPSNjnxHSF0pkVWjxd3JjJTUoWkCXLlS0nqlHRSUpukJkktQRD0RahzBCPIF/4FhSg4vUwZrnIAAAAASUVORK5CYII=" class="twitter"></a>    
+
+            </div>
+            <!--/Contact-->
+
+            <!--Cart Icon-->
+            <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+            <!--/Cart Icon-->
+
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+            <!--Content Cart-->
+            <div class="cart-content">
+                <!--Test Box-->
+                <div class="cart-box">
+                    <img src="https://www.thespruceeats.com/thmb/l4w6PvMqsz1EjueCAh_foPmYafM=/3456x3456/smart/filters:no_upscale()/garlic-burger-patties-333503-hero-01-e4df660ff27b4e5194fdff6d703a4f83.jpg" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Cheese Burger</div>
+                        <div class="cart-price">฿ 99-.</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">฿ 0</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class="fa-solid fa-x" id="cart-close"></i>
+
+            </div>
+</div>
+<!--/Nav-->
+
+<!--Shop-->
+<section class="shop" id="hamburger-type">
+
+        <div class="card-list"> 
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.thespruceeats.com/thmb/l4w6PvMqsz1EjueCAh_foPmYafM=/3456x3456/smart/filters:no_upscale()/garlic-burger-patties-333503-hero-01-e4df660ff27b4e5194fdff6d703a4f83.jpg" class="menu-img" alt="">
+                    </div>
+                    <div class="card-text">
+                        <p class="name-menu">Cheese Burger</p>
+                        <p class="price-menu">99-.</p>
+                    </div>
+                    <div class="card-icon-animal">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                    </div>
+                    <button href="" class="btn">ADD TO CART</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.slimssteakhouse.com/wp-content/uploads/2020/10/Baconcheeseburger.jpg" class="menu-img" alt="">
+                    </div>
+                    <div class="card-text">
+                        <p class="name-menu">Bacon Cheese Burger</p>
+                        <p class="price-menu">129-.</p>
+                    </div>
+                    <div class="card-icon-animal">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                    </div>
+                    <button href="#" class="btn">ADD TO CART</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2018/01/All-American-Hamburgers_EXPS_CWAS22_29321_P2_MD_04_19_1b_v2.jpg" class="menu-img" alt="">
+                    </div>
+                    <div class="card-text">
+                        <p class="name-menu">Extra Buttery Burger</p>
+                        <p class="price-menu">129-.</p>
+                    </div>
+                    <div class="card-icon-animal">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                    </div>
+                    <button href="#" class="btn">ADD TO CART</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.thecookierookie.com/wp-content/uploads/2018/04/how-to-broil-hamburgers-broiled-hamburger-recipe-7-of-9.compressed-copy.jpg" class="menu-img" alt="">
+                    </div>
+                    <div class="card-text">
+                        <p class="name-menu">Whopper Burger</p>
+                        <p class="price-menu">149-.</p>
+                    </div>
+                    <div class="card-icon-animal">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                    </div>
+                    <button href="#" class="btn">ADD TO CART</button>
+                </div>
+                
+            </div>
+
+        <div class="card-list"> 
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://cdn.pixabay.com/photo/2021/05/22/01/25/hamburger-6272342_1280.jpg" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Double Whopper Burger</p>
+                    <p class="price-menu">169-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www.thewholesomedish.com/wp-content/uploads/2019/04/The-Best-Classic-Hamburgers-550.jpg" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Texas Whopper</p>
+                    <p class="price-menu">150-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www.momontimeout.com/wp-content/uploads/2021/09/crispy-chicken-sandwich-no-text-square.jpeg" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Rodeo Burger</p>
+                    <p class="price-menu">150-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www.yellowblissroad.com/wp-content/uploads/2020/06/Grilled-Hamburgers-Social.jpg" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Extra Buttery Cheeseburger</p>
+                    <p class="price-menu">150-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+            
+        </div>
+
+        <div class="card-list"> 
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www.thespruceeats.com/thmb/qpl1Ir8XB7Q7YJlCFSydkx1BfPc=/2696x2696/smart/filters:no_upscale()/juicy-baked-burgers-3052097-hero-01-c9e134a9f357424c8bd6fc67149ad4c0.jpg" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Big King</p>
+                    <p class="price-menu">189-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://tastecooking.com/wp-content/uploads/2010/01/shutterstock_319840817-e1538157469224.jpg" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Big Queen</p>
+                    <p class="price-menu">189-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://castleinthemountains.com/wp-content/uploads/2020/02/Wicked-Keto-Black-Burger-Buns-Recipe-Sophisticated-Flavors.png" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Black Burger</p>
+                    <p class="price-menu">150-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEy0lEQVR4nO3aaahVVRTA8Z89h1A0Tc0mrcSMkMgcKmwio4ToixBUUhJFgQRZEWFQpB+KiIjMhCYoIov6UCBJk30oMjKLDDQqNTWnSnk5Vc6vD2sf3/F6371Xvec9hfOHzX2evc/Za6+z19prrSMlJSUlJSUlJSUlJSUlh9CCvl0tRNGcVKNvP27Hw50ky3HFmRie/p6Ph7pQlkLpVuP6E9iA7/E5BmNfJ8nVaXSkgIxx2IoVuByL64zvhytSG5m7/jt+xo9CoQeORtgi6F6nfw/eSn/PwVPokes/GWenNh5jhPOsxSZhVgvwJbYdmchHTF8MxB/YVdnZ0Q7oh9cxGYswA2PxAIahTX3lNcJ+sTs2JQG3CIVkO2QfdlTIlSl4QPptSdehJ/qgP87AIPRKfbvwNh7E9nqC3S8W2YadeFK8YeLkyPefaG2ROi+vJ5bnbtidtLcbNwuNfnccLORI2zJchL24rZYCplfcOE3YfS8MEbbb1Ys5mtYq3vwXeDlbbDUfsAA35v79r/Dce3GZsLETlWtwKS7GHRxuC32EJ8/TG1cVLlrnMBELxfGOw0PhZ3B6Z0rUyZwvYppB1TqvE8dPV9tqkS0L5JZki87vgFcc6hNWYSauTBrrg1HCSa6tpsETgHPT795qnR8ILW0SDqJWRNcLczWm9e3C5hY3OL7IlkWdS6qtrzemao+wGmFWgxPfJXxLaxcrYGOS+ye1SwEN0w3vNzDxLozAo12sgG+T3FuasfiMAVjdwOSzcVYBi1ouaheNjH0J5+DPTPhmbIO/cYvIHGtxvagvrGvCnHmW4Z8Gx36Ca7E5u9AUOxBbKyudfS1i7sriSeaBN2ouA4Vz211n3H/4TBR2/mqyDAd5Xji63g73DTvTmK80Z+tvxhu4KT33zTrjP0zjxuLdJq/7EKYJk7ihQoDVqX9NHUHrtZWiWNsiTpapqQ0WtYWO7nsszX8qXitg3YfQQ5wQ63ICvJeE3lBDyFptFe5Nz74aH2uPXPcJhQ/FDx3cPznJ1huvFrTug9yJU4TXzQSYnvq6iYRrhjCT39ICqgm9AfNE/p4lboNUV+Iu3CMUNF3UMvP9E9P9PcTJUSgLcbcooGQCjK0xvocotY1K40aq/VGm0rzaRHntRVGnbBFxR14Jk3L3bxG1jcKYh2cxOk2+XXNqiBmniePvPjwidtEsURucK45ceEG7AvLfNt4Ryi6MmXhObPU2fNrk518g3nDGaEwRIXcbzkvXJ2hXwJzc+EukxK9ZcUAlK0TGlT1/TZOf/4s4DTKWCqc4VPiCLFv9Rru95+OEzFEWpoD14i2sEp66taB58rQKv7Nee1n9gDAROngJRSmgu6i/bROp547aw5vGHpHO5/lIOL3Vhw8vTgFjhaPqnyY+khT7aOkpvlBtqLjeJnZH1RykmZ45zyRxtm8Vsfr+gubJM0EUatZX6dvTkQxFKGCEiNTWChscLs74opmSfn+t0tddcnpF0yI+pbeJoCT7jthounq0XCi8/FJhdnmGiBOpViDWNMbg6dSGiXB3P24tcM6RIhBqFQlRJbPFS3i8QBmqMk6kwPMLnmeQ+GI1rkrfGBGELdRBAlTvP0gcC+NFQrRS8wOhkpKSkpKSkpKSkpKSkmPhf5IhqldC+rLkAAAAAElFTkSuQmCC" class="beef-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAD90lEQVR4nO3ZW4hWVRTA8d/MaBcbG9PSLCopy+6UNVgI0fWhC5RQdDMqwiLqyR6qga5vUT0VMfnQ5cHwIagISUp6iISktJDCRCKChgrL0nQmrHF6WN/XHD/POd/MN3Pmk9h/2BzOPvvsvdbae619I5FIJBKJRCKRSCQSiUTi/80xWIfT6hnT2ifLpHACLsAZmI1h7MJWbMaOTNkurMHp2Dm1Yk4Ox+IqrBSK/ICRkrQP/ViKFxvKDwjj6ahI2CMws5amYQh7RO/szynfgVnoxolYgFNqz1Nxbl3gFvkQPTUZ7sa3uBdvl7nAYcKKzegRPbMUi7FQKFFk3H3YK4zRjaNw5BjamQjb8AHeF64xhE+a/bQCP+JxIWiWGbgd79YqKxuKh0pajV4sx7xmysPTmZ+34SRMR58ILu1WqJX02FgUr/NAw88bxLD+6hBQpNW0wzhmvvnCV7MVXCqs2G5FJpIuyyrZVWKAPfgNN2TyunE4Li6zXBsZEG46vaTMF/h8PJVu1v5eG0vaL6bMN5uUeyarXGeJ4vPFtHHhmE3VXjbhe1zRpNze7EtRQOgRyl80cbmmjHewRMxWZWzJvtQNMEusto7GlbivljcedmH3GASoii0iSJexE5/mfVhu4j74BJZNQj2tpkV4pUmZvkbFOxueE+FnsUJsF/9tcAp4D881ZtYV3yistxJnimVjKwy3+N9kMViQ/zXukCNfPQZsw0OZ/A1iJ3aJA9cKI4o3OcfX6iljtQhUC5uUa4V5Ig7l8ZRi45TSjXNwnhheXWKGuEmMmqx/rRMuMKjYB28Um6wqYsAyPFjwbXEryjejAzfXFN8ops1OvFEi5KO4piID9ItO+jvn2y1VGKCIBfijQMhbcVeJEq2mX7Gq1v6qnO+vVqduPrflCDEojrWOE9NuP74RByTjUfYfbBdnEX1ij98pTqGWiPXL9oZ/dovTqYOo6kgMPsLVmfeX8CQeEWuGOtPEqFmIuUKRHrHp2i8C2y4xqgbEcdZQTnszsLbWzmfiBOj8zPc78dYEdRoXDxvtgWGh5LNiPq6KmVgvgm2P2PXVZXi+wnZzWZJp/GPR0z+JtUaVzBabovtxshhFI3ih4nYPoseoAe7BdSqckhroE+5CuMyIA9c5U8Yg/hJDcw1+V34IM1msEIEPvhQGyN0oTcYeoIgOEci24k9cLs4Tp2K5fLbRU6FhETQ35RWs0gBzavX/Iu4Y5lbYViO9wuiEITYquOOo0gC9teeQuPjoEGeJVd9HXi/uC1eIe8BFwg1yqVKYa2vPLrF4eVmMhDliVFTFWrGH6cLrYidYaICqOEv4/nd4baobTyQSiUQikUgkEolEIpEo41+2AE1ApS7I+wAAAABJRU5ErkJggg=="class="pig-img">
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www.thetitanfood.com//public/img/menus/1/137.jpg" class="menu-img" alt="">
+                </div>
+                <div class="card-text">
+                    <p class="name-menu">Fish Burger</p>
+                    <p class="price-menu">79-.</p>
+                </div>
+                <div class="card-icon-animal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAAFyElEQVRoge2ae4jVRRTHP7uubes78x22q71INhMrMBbSHpL2MqVIioKKMJMES4JSWsgea1TEkhhBGRWV+0dgaEblH7lFQSWVrmUvdTfY3PKta5uu2x/njPfn3Pk97m/u3atwv3CY/c2ZOXO+d347M+fMD0oooYQSTiOUFdsBC8OB8cBvwG6tGwc8BVTq8x5gB7AVaAb29rKP3qgC1gP7gB6V5oD+/UC9LceAz4E7gYreczkeFcBVQAPwA/A7cLbq7iKbyDuqG4+QCiMclC06RlExEqgH2sl28Bxt87FDN111Kxy6KDkKLCwwJyeqgVXAvyGOtWi7MWTPYCtQDvQDDof0j5MFBeZ3AhXAUqAzxqEXtf39Dt1LqrslxkaUHAOmFIylYgyy2CRx6Hrt87pDN0d1ryW0FSY/Im9KQTAB2JmDMyO1309W/XFghOpaUxINyuxCkD0P+CsHJ/Zrv0olGNT9qboBeSDbA6zJN9khwC85OvGN9h3r0H2rukvyRPgImQML4P+ONwIX5NjHzPAIh65Dy5rUHp2MM4FJwQofwrOAu1P069ayv0PXqeXxVB65cVHwIS3hPsBzno64zsBnaXnQ03YQo4IPaQnfBlycsu9oLfc4dIbwfocuLbqDD2kJz/NwYBwSpXUgJ7EgqlX3K3J4yAe6gg9pCNcA0zwcGKA2jpJZsQ2GIgFDJ7DJY4wgTvpR0xCejX8cfY2WXzp0M7V8z3MMg52+BpIeH6OkSW3VOXRm1gcCu/Iw1nAfstVkn47SHgjMAtXi0M9S3UOe47T5kAVYkgeyRkwIt8iha0G2vr7AtpT2u4Gnfcj2RXJNYQMcBu4FapE9Os6hP9Rmf9yv7n067h05kPwZCS9nAIN9yAI8EjNYg9X+iwQOPhBhuw3Jd5UB31m6bmAxcLvKtWT+RYI4Iy3ZG5D9LMr5x6w+HyYgvEOdqtK/w2zebNVvD/FzNHAPsBqJvHqAf5CsZ6Ik3yBgObJnxjnfSiaQmAn8l6BPD/Cg9pnr0HUg0U4fsuPjz5DVvglYGyAYJiuiiE5BshGHEjpt5DiST86lTxsS1ZQBXzv0c9WnZTnadfk2OUjSZBi3ehpOI4+qD9McunWquywP47xsyC5C9sbeJmrkb+SgAdlp2yPISl5G/GsbJxsBHi4i0aDUK+HrHDpzEFnlOcZuSL+xF2KWzTa02dI9r4QXeI6xrxw5Lp4KGEZmpX7L0pnFxjeCOgByOin27Br5VB2rtep3IzPfj2RbZJg0lwNvev5q+cRUJBO6hZMP/kORGLoTmaC02ABynl1P8WfXyAx1bp1Vb+LktVb9GuBV4lfwLqCmAnlFbgRuRQLzYPp0IHKFUksBry0sTEC2plar3sS1HVb9POQioAIJNJ4FznXYfQY5vibCWPy3hKTSqGM+btUv1voGq34dcr1qJqSf9jUR2CHgSVJO2HzykwCIkpU6ln0+WK71YVHbdmSVN+mnSiQnPSBIIFfWK4m/cN6C/KIHcrRtYHyyo5shWu4L6VeD5MGW6nMXcsY45DKeC15BCIWhETnoN0W0iUK7loOs+qNaxsW4rv/fE0i7EC0j8z9mY6KWdgo2DJ3ATcgPCXI5B9mOm/xyVYy99iilz8rbgFxe26+YuXnfmNDOamThWavPW7WcaLVLSthe3fOOkUjs3I3M+OGALskpzuSo30ZmpxzZDu0T1RJtFxcXXx7lbD721l3ItxrVSFw7P6B7I0H/bVrWAR8hu8CVZC9aJq0TlWc+giyaRcNg4jMgZnHaAFytf9c72l2huk8ibH1QUDYJsZBowuc7+jzhaGe2JVeyz8icLEtFQDnR1zNhH55MRr7kOQh8r3XDIuxsoveOv7EYS/g90QsxfavI7L1TQ2zsBS7Nu9eeqMP9Zd1XOdgYru2D/TcTszIXE9PJTv12YX1pkwCjkCzmhZx6n0BnYRJyw+9D+LRDJbJfv4t8L1JCCSWUUIIL/wNvFIN9Z74uHwAAAABJRU5ErkJggg==" class="fish-img"/>
+                </div>
+                <button href="#" class="btn">ADD TO CART</button>
+            </div>
+            
+        </div>
+
+</section>
+
+<section id="snack-type">
+
+    <div class="card-list"> 
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://aubreyskitchen.com/wp-content/uploads/2021/01/frozen-french-fries-in-air-fryer-500x500.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">French Fries</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://obs.line-scdn.net/0hCRt2iMsCHH1JSzYAyB9jKnMdHxJ6Jw9-LX1NfhUlQkk2ewsiJyxRSGVNFkxsKFsjIC1THWxJB0xsf1x4dnpR/w1200" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Crisps</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://image.izettle.com/product/cNCHtGlBEeq1nT-3KAzkwg-LPnrOJ_8EeqJr3-MGcr7SQ.png" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Onion Rings</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://www.tasteofhome.com/wp-content/uploads/2022/02/GettyImages-1354905331-e1645652815108.jpg?fit=700,700" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Nugget Chicken</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+        
+    </div>
+
+    <div class="card-list"> 
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://image.sistacafe.com/images/uploads/summary/image/1541/1437376632-1410349698-pantiptalk-o.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Fries Chicken Spicy</p>
+                <p class="price-menu">99-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://cf.shopee.co.th/file/1eb9ef27731bdaec7d031cf778e3402f" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Hash Browns</p>
+                <p class="price-menu">99-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>    
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Multitud_de_churros.jpg/800px-Multitud_de_churros.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Churros</p>
+                <p class="price-menu">99-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>   
+    </div>
+
+</section>
+
+<section id="drink-type">
+
+    <div class="card-list"> 
+
+        <div class="card">
+            <div class="card-img">
+                <img src="http://women.mthai.com/app/uploads/2015/11/coke-600x600.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Coca Cola</p>
+                <p class="price-menu">45-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://www.sweetdiplomacy.com/uploads/1/2/4/2/124210842/s656270094913522533_p362_i1_w2560.jpeg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Ice Americano</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://wingmarts.com/media/user_299/248772/PQZ-00008.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Ice Capucino</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://thestayathomechef.com/wp-content/uploads/2021/11/Decadently-Thick-Italian-Hot-Chocolate-4-500x500.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Ice Chocolate</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+        
+    </div>
+
+    <div class="card-list"> 
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://christieathome.com/wp-content/uploads/2020/01/Vegan-Strawberry-Milk2-scaled.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Strawberry Milk</p>
+                <p class="price-menu">80-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://www.thespruceeats.com/thmb/gAZIth9N3edVCXI-GYHgUIOY3fw=/2667x2667/smart/filters:no_upscale()/hairy-navel-cocktail-recipe-761071-004-f5a2af0f040243d8ba1c590d0398bb06.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Orange Juice</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="https://www.errenskitchen.com/wp-content/uploads/2014/08/lemon-Iced-Tea.jpg" class="menu-img" alt="">
+            </div>
+            <div class="card-text">
+                <p class="name-menu">Ice Lemon Tea</p>
+                <p class="price-menu">69-.</p>
+            </div>
+            <button href="#" class="btn btn-snack"><p class="btn-snack-text">ADD TO CART</p></button>
+        </div>
+    </div>
+
+</section>
+<!--/Shop-->
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
