@@ -1,4 +1,4 @@
-//Open $ Closr Cart
+//Open $ Close Cart
 const cartIcon = document.querySelector("#cart-icon");
 const cart = document.querySelector(".cart");
 const closeCart = document.querySelector("#cart-close"); 
